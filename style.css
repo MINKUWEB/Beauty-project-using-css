@@ -1,0 +1,286 @@
+body{
+	background-image: url(img/bg.jpg);
+	background-size: 100% 900px;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+}
+nav{
+	width: 100%;
+	height: 500%;
+		float: left;
+
+	box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#Welcome_text{
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	padding: 0;
+	margin: 0;                    /* H1 ke pas Default margine padding hota hai esliye zero kiya gya hai */
+}
+#nav_bar{
+width: 900px;
+height: 80px;
+box-sizing: border-box;
+border-width: 1px;
+border-style: solid;
+border-color: white;
+
+}
+#nav_item{
+	width: 20px;
+	height: 80px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*end nav tag*/
+
+section{
+	width: 800px;
+	height: 800px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(img/section-bg.png);
+	/*border: 1px solid white;*/
+}
+#logo{
+	width: 220px;
+	height: 200px;
+	border: 5px solid white;
+	box-sizing: border-box;
+	margin-left: 250px;
+	margin-top: 200px;
+}
+#logo-text{
+ color: white;
+ font-size: 110px;
+ text-align: center;
+ margin: 0;
+ padding-top: 20px;
+
+
+}
+#domain_name{
+font-size: 60px;
+color: white;
+margin: 0;
+padding-top: 50px;
+}
+/*end Home page code*/
+
+/*Start login page section*/
+#Domain_name_login{
+	font-family: sans-serif;
+	font-size: 80px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+#login_legend_section{
+	float: left;
+	height: 300px;
+	width: 400px;
+	box-sizing: border-box;
+	margin-left: 150px;
+	margin-top: 120px;
+	padding: 30px;
+	
+}
+
+#login_legend_font{
+	color: white;
+	font-weight: bold;
+}
+#login_form{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#input_user{
+	width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; /* ese deafult background color ht jata hai */ 
+	border: 2px solid white;
+}
+#input_pass{
+	width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; 
+		border: 2px solid white;
+
+}
+#input_submit{
+	float: right;
+	margin-top: 25px;
+	border 2px solid white;
+	width: 110px;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+	background-color: inherit;
+}
+/*Contact page*/
+ #contact_us_address{
+ 	font-size: 25px;
+ 	font-family: sans-serif;
+ 	color: white;
+ 	line-height: 25px;
+}
+
+ 	/*start product section*/
+ 	#Product_section{
+     width: 100%;
+     height: 450px;
+     float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+        #brand_header_text{
+            font-size: 40px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+ #brand_pic{
+ 	width: 200px;
+ 	height: 80px;
+ 	float: left;
+ 	background-color: white;
+ 	border: 3px solid 323232;
+ 	margin: 10px;
+ 	margin-left: 80px;
+ }
+ #search{
+ 	width: 60%;
+ 	height: 60px;
+ 	float: left;
+ 	box-sizing: border-box;
+    margin-top: 50px;
+ 	margin-left: 20%;
+ 	right: 20%;
+ 	border: 1px solid #ccc;
+ 	font-size: 16px;
+ 	padding: 8px;
+ 	background-image: url(img/search.png);
+ 	background-size: 40px 40px;
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ }
+ #zest_product{
+width: 100%;
+height: 500px;
+float: left;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.8);
+ }
+ #zest_header{
+ 	text-align: center;
+ 	font-size: 40px;
+ 	color: white;
+ 	font-family: sans-serif;
+ }
+ #Zest_good{
+ width: 250px;
+ height: 300px;
+ float: left;
+ box-sizing: border-box;
+ border: 1px solid white;
+ margin: 50px;
+ margin-top: 20px;
+ }
+
+ /*footer Coding*/
+ #product_footer{
+ 	width: 100%;
+ 	height: 50px;
+ 	float: left;
+ 	box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+ }
+
+ #footer_text{
+
+text-align: center;
+font-size: 25px;
+font-family: sans-serif;
+ }
+
+
+ /*Signup coding*/
+
+
+
+
+
+
+#login_legend_signup_section{
+	float: left;
+	height: 430px;
+	width: 400px;
+	box-sizing: border-box;
+	margin-left: 150px;
+	margin-top: 120px;
+	padding: 30px;
+	
+}
+
+#login_legend_signup_section{
+	color: white;
+	font-weight: bold;
+}
+#login_signup_form{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#input_signup_user{
+	width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; /* ese deafult background color ht jata hai */ 
+	border: 2px solid white;
+}
+#input_signup_pass{
+	width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; 
+		border: 2px solid white;
+
+}
+#input_email{
+width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; 
+		border: 2px solid white;	
+}
+#input_phone{
+	width: 350px;
+	height: 45px;
+	box-sizing: border-box;
+	background-color: inherit; 
+		border: 2px solid white;	
+
+}
+
+#input_signup_submit{
+	float: right;
+	margin-top: 25px;
+	border 2px solid white;
+	width: 110px;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+	background-color: inherit;
+}
